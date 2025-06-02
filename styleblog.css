@@ -1,0 +1,98 @@
+
+#trend{
+    background-color:rgb(255, 0, 34);
+    color:white;
+    text-align: center;
+}
+.sub{
+    background-color: orange;
+    color:black;
+    gap:30px;
+    display: flex;
+    text-align: center;
+    padding-left: 20%;
+}
+    
+#vk{
+    text-align: center;
+    padding: 10px;
+    color: red;
+    font-size: 50px;
+}
+
+.blog{
+    display:flex;
+    gap:2%;
+
+}
+
+#center{
+    margin-left: 32%;
+    padding-top: 10px;
+    
+}
+#btn{
+   
+    width:100px;
+    height:40px;
+    flex-direction: row;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+
+.homefea{
+    display: flex;
+    font-size:20px;
+    gap:20px;
+    background-color:wheat;
+    width: 100%;
+    padding:10px;
+}
+#hom{
+    margin-left:25%;
+}
+.photo{
+    display: flex;
+    padding-top:30px;
+    gap:50px;
+    text-align: center;
+}
+.photo-one img{
+    width:400px;
+    height:400px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+.photo-one button{
+    padding:2px;
+    background-color: black;
+    color: beige;
+}
+.photo-two{
+    display: flex;
+    padding-top:30px;
+    gap:50px;
+    text-align: center;
+}
+.photo-2 img{
+    width:400px;
+    height:400px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+.photo-2 button{
+    padding:2px;
+    background-color: black;
+    color: beige;
+}
+.last{
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    display: flex;
+    gap:4px;
+}
+#special{
+    color:red
+}

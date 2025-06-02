@@ -1,0 +1,36 @@
+.service{
+    padding:20px;
+    gap: 20px;
+}
+
+
+.service p
+{
+    font-size:19px;
+}
+.service ul{
+    font-size: 20px;
+    color:rgb(90, 5, 65);
+}
+
+
+.service-one
+{
+    margin-top: 20px;
+    display:flex;
+
+
+}
+
+
+.AC{
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.service-one__2{
+    display: flex;
+}
+
+

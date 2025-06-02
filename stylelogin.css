@@ -1,0 +1,53 @@
+body{
+    background: url(./img/road4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+
+}
+
+.login{
+    border:3px solid black;
+    border-radius: 5px;
+    color:white;
+    padding-left: 10px;
+    width:28%;
+    height:500px;
+    margin-top: 5%;
+    margin-left:35%;
+}
+.login h1{
+    padding-top: 10px;
+}
+.login-one input{
+    width:400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.login-two {
+    margin-top: 10px;
+    display: flex;
+    gap:3px;
+}
+.login-two p{
+    margin-top: 22px;
+}
+.login-two h4{
+    margin-left:30%;
+
+}
+.login-three button{
+    width:410px;
+    
+    height: 50px;
+    background-color:white ;
+    border-radius:  solid black 10px;
+    
+}
+.login-four{
+    display:flex;
+    gap:190px;
+    margin-top:10px;
+ 
+}
