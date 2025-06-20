@@ -1,8 +1,9 @@
 
-#trend{
+.blog1 h2{
     background-color:rgb(255, 0, 34);
     color:white;
     text-align: center;
+    padding:5px;
 }
 .sub{
     background-color: orange;
