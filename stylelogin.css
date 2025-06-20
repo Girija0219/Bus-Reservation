@@ -1,59 +1,72 @@
-body{
-    background: url(road4.jpg) no-repeat center center fixed;
-    background-size: cover;
-    
+body {
+      font-family: Arial, sans-serif;
+      background: #eee;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
 
-}
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px #ccc;
+    }
 
-.LOGIN-ONE H3{
-    font-size: 20px;
-}
+    h2 {
+      color: green;
+    }
 
-.login{
-    border:3px solid black;
-    border-radius: 5px;
-    color:white;
-    padding-left: 10px;
-    width:28%;
-    height:500px;
-    margin-top: 5%;
-    margin-left:35%;
-}
-.login h1{
-    padding-top: 10px;
-}
-.login-one input{
-    width:400px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 20px;
-    color: aliceblue;
-    background-color: transparent;
-}
+    .toggle-btns {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 
-.login-two {
-    margin-top: 10px;
-    display: flex;
-    gap:3px;
-}
-.login-two p{
-    margin-top: 22px;
-}
-.login-two h4{
-    margin-left:30%;
+    .toggle-btns button {
+      flex: 1;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      font-weight: bold;
+      border-radius: 25px;
+      background: linear-gradient(to right, orange, #ffd194);
+      color: black;
+    }
 
-}
-.login-three button{
-    width:410px;
-    
-    height: 50px;
-    background-color:white;
-    border-radius:  solid black 10px;
-    
-}
-.login-four{
-    display:flex;
-    gap:190px;
-    margin-top:10px;
- 
-}
+    .toggle-btns button.active {
+      background: white;
+      border: 2px solid orange;
+    }
+
+    .form-group {
+      margin: 15px 0;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      background: #f0f0f0;
+    }
+
+    .form-group button {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(to right, orange, #ff9966);
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background: linear-gradient(to right, #ff9966, orange);
+    }
+
+    #signup-form {
+      display: none;
+    }
