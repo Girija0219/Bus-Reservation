@@ -1,131 +1,187 @@
-*{
-    padding:0;
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.section{
-    width:100%;
-    height:100vh;
-    background-image:url(./img/back.jpg);
+
+
+
+.section {
+    width: 100%;
+    height: 100vh;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.section-one{
-    width:100%;
-    height:10vh;
-    display:flex;
-    justify-content:space-around;
+
+.section-one {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    color:white;
-    background-color:black;
+    color: white;
+    background-color: black;
     box-shadow: 0 0 10px black;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.logo img{
-    width:200px;
-    height:70px;
+
+.logo img {
+    width: 200px;
+    height: 70px;
 }
-.logo h1{
-    margin-top: 13px;;
+
+.logo h1 {
+    margin-top: 13px;
+    ;
 }
-.links{
+
+.links {
     display: flex;
-    gap:15px;
-    
-}
-.link a{
-    color:white;
-}
-.logo h1{
-    font-size: 40px;
-}
-.logo span{
-    color:rgb(7,113,219);
-}
-link a{
-    position:relative;
-    color:white;
-    text-decoration: none;
-    font: size 1.2rem;
-    margin:0.15px;
-    transition:0.3s linear;
+    gap: 15px;
 
 }
-.links.link a:before{
-    content:"";
+
+.link a {
+    color: white;
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+.logo span {
+    color: rgb(7, 113, 219);
+}
+
+link a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font: size 1.2rem;
+    margin: 0.15px;
+    transition: 0.3s linear;
+
+}
+
+.links.link a:before {
+    content: "";
     position: absolute;
     left: 0;
     bottom: -4px;
     width: 100%;
     height: 3px;
-    background-color: rgb(7,113,219);
-    transition:0 3s linear;
+    background-color: rgb(7, 113, 219);
+    transition: 0 3s linear;
 }
-.links .link a:hover:before
-.links .link a:hover{
+
+.links .link a:hover:before .links .link a:hover {
     width: 100%;
-    color:rgb(7,113,219);
+    color: rgb(7, 113, 219);
 }
 
-.button1 button{
-    width:100px;
-    height:30px;
+.button1 button {
+    width: 100px;
+    height: 30px;
 }
 
-.buttons.button1 button:hover{
-    color: rgb(7,113,219);
-    border: 3px solid rgb(7,113,219);
+.buttons.button1 button:hover {
+    color: rgb(7, 113, 219);
+    border: 3px solid rgb(7, 113, 219);
     background-color: white;
 }
-section{
-    width:100%;
+
+section {
+    width: 100%;
     height: 90vh;
-    display:flex;
-    justify-content: left;
-    align-items: center;
+    display: flex;
+
+
 }
-.content{
+
+.vid video {
+    width: 100%;
+    height: 30%;
+
+    position: relative;
+
+}
+
+.content {
     margin-top: 10%;
     margin-left: 30%;
-    width:40%;
-    color:white;
+    width: 40%;
+    color: black;
+    position: absolute;
+    top: 50px;
 }
-.content h1{
+
+.wel {
+   
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
     font-size: 80px;
-    text-shadow:0 0 7px white;
+    text-shadow: 0 0 7px white;
+    margin-left: 300px;;
+    font-size: 5em;
+    font-family: serif;
+    color: transparent;
+
+    animation: effect 2s linear infinite;
 }
-.content h2{
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(rgb(50, 3, 50),purple );
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background:linear-gradient(#0b5049, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+
+.content h2 {
     font-size: 4 rem;
     text-shadow: 0 0 7px white;
 }
-.content h2 span{
+
+.content h2 span {
     color: purple;
-    text-shadow: 2px 2px 3px rgb(7,113,219);
+    text-shadow: 2px 2px 3px rgb(7, 113, 219);
 
 }
-content p{
-    width:40%;
-    height:7vh;
+
+.content p {
+    width: 100%;
+    padding-bottom: 10px;
     border-radius: 10px;
-    background-color: rgb(7,113,219);
-    border:none;
+
+    border: none;
     outline: none;
-    color: white;
-    cursor :pointer;
-    font-size: 100px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
     font-weight: 700px;
-    margin:20px;
-    transition:0.2s linear;
+    margin: 0px;
+    transition: 0.2s linear;
 }
-.content button:hover{
+
+.content button:hover {
     font: size 1.3em;
     background-color: transparent;
-    color:rgb(7,113,219);
-    border:1px solid rgb(7,113,219);
+    color: rgb(7, 113, 219);
+    border: 1px solid rgb(7, 113, 219);
 }
 
 
@@ -133,107 +189,118 @@ content p{
 
 /* offer*/
 
-.offer{
-    padding-top: 30px;
-    background-color: black;
-    color:azure;
+.offer {
+    padding-top: 40px;
+    padding-left: 2px;
+    ;
+    background-color: white;
+    color: black;
+    position: relative;
 }
-.offer-1
-{
+
+.offer-1 {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    gap:50px;
+    gap: 50px;
 }
-.offer-1__box
-{
-    width:500px;
-    height:200px;
-    padding-left:30 px;
-    border: solid 1px ;
+
+.offer-1__box {
+    width: 500px;
+    height: 200px;
+    padding-left: 30 px;
+    border: solid 2px;
     border-radius: 20px;
     display: flex;
-    color:black;
-    padding-top:10px;
-    background-color:rgb(216, 187, 187);
+    color: black;
+    padding-top: 10px;
+    background-color:white
 }
-.offer-1__box img{
+
+.offer-1__box img {
     margin: 20px;
-    margin-top:50px;
-    
+    margin-top: 50px;
+
     height: 70px;
-    width:70px;
+    width: 70px;
 }
-.offer-1__box button{
+
+.offer-1__box button {
     margin-top: 10px;
     border-radius: 8px;
-    width:50px;
+    width: 50px;
     background-color: transparent;
-    color:black;
+    color: black;
     border: solid 2px black;
-    
+
 }
-.offer-1__box h4{
-    padding:3px;
+
+.offer-1__box h4 {
+    padding: 3px;
     padding-top: 5px;
     border: 2px dotted black;
-    width:100px;
+    width: 100px;
 
 
 }
-.offer-1__box h3{
+
+.offer-1__box h3 {
     padding-top: 10px;
 }
 
 
 
 /* about */
-.abo h2{
-    padding-top: 20px;
-    background-color: black;
-    color:white
+
+.abo h2 {
+    padding-top: 40px;
+
+    color: black;
 }
-.all-about{
-    background-color: black;
-    color:whitesmoke;
+
+.all-about {
+    background-color: rgb(210, 210, 210);
+    color: black;
     display: flex;
-    gap:100px;
-    padding:10px;
+    gap: 100px;
+    padding: 10px;
 }
-.logo1 img{
-    width:100px;
+
+.logo1 img {
+    width: 100px;
 
 }
-.about{
+
+.about {
     display: flex;
-    gap:100px;
+    gap: 100px;
 }
-#logo{
-   
-    width:300px;
-    
+
+#logo {
+
+    width: 300px;
+
 }
 
 
-.imglogo{
+.imglogo {
     display: flex;
-    gap:10px;
+    gap: 10px;
 
 
 }
-#ins{
-    width:30px;
-    height:30px;
-}
-#lin{
-    width:30px;
-    height:30px;
-}
-#x{
-    width:30px;
-    height:30px;
+
+#ins {
+    width: 30px;
+    height: 30px;
 }
 
+#lin {
+    width: 30px;
+    height: 30px;
+}
 
-
-
+#x {
+    width: 30px;
+    height: 30px;
+}
