@@ -5,6 +5,10 @@ body{
 
 }
 
+.LOGIN-ONE H3{
+    font-size: 20px;
+}
+
 .login{
     border:3px solid black;
     border-radius: 5px;
@@ -22,6 +26,8 @@ body{
     width:400px;
     height: 50px;
     border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
     background-color: transparent;
 }
 
@@ -41,7 +47,7 @@ body{
     width:410px;
     
     height: 50px;
-    background-color:white ;
+    background-color:white;
     border-radius:  solid black 10px;
     
 }
